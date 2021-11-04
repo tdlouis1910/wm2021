@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div class="main-form">
+    <div style="width: 50%; background-color: rgba(0,0,0,0.4); padding: 3rem; display: flex; align-items: center; flex-direction: column">
+        <h3 style="padding: 1rem; color: white">Upload an image to see object detection</h3>
+        <div>
+          <form action = "/uploader" method = "POST" enctype="multipart/form-data" class="format-form">
+            <input type = "file" name = "file" style = "color:white"/>
+            <input type = "submit" value="Submit"/>
+          </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

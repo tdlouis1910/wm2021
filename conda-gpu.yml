@@ -1,0 +1,28 @@
+name: server-api
+dependencies:
+  - python==3.7
+  - pip
+  - matplotlib
+  - opencv
+  - cudnn
+  - cudatoolkit==10.1.243
+  - pip:
+    - tensorflow-gpu==2.3.0rc0
+    - opencv-python==4.1.1.26
+    - lxml
+    - tqdm
+    - absl-py
+    - matplotlib
+    - APScheduler==3.6.3
+    - bcrypt==3.1.7
+    - boto3==1.12.5
+    - Flask-Cors==3.0.8
+    - Flask-SQLAlchemy==2.4.1
+    - Flask==1.1.1
+    - SQLAlchemy<1.4
+    - mysqlclient==1.4.6
+    - Pillow==7.0.0
+    - PyJWT==1.7.1
+    - requests==2.23.0
+    - pandas
+    - easydict
